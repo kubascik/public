@@ -3,7 +3,7 @@
 set -e
 
 AGENT_CONTAINER_NAME="portainer_agent"
-REDEPLOY_SCRIPT_URL="https://raw.githubusercontent.com/kubascik/public/main/portainer-agent.sh"
+REDEPLOY_SCRIPT_URL="https://raw.githubusercontent.com/kubascik/public/main/portainer_agent_run.sh"
 
 echo "Stopping Portainer agent..."
 docker stop "$AGENT_CONTAINER_NAME" || echo "Container not running."
